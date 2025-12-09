@@ -87,12 +87,12 @@ div.div-btn button {
     border-radius: 50px;
     border: none;
     color: white;
+    transition: transform .5s;
 }
 
 div.div-btn button:hover {
     cursor: pointer;
     transform: translateY(-3px);
-    transition: transform .5s;
 }
 
 div.div-btn button#btn-green {
@@ -203,7 +203,10 @@ footer div#div-btn-logos img {
     width: 30px;
 }
 
+footer div#div-btn-logos a {
+    transition: transform .5s;
+}
+
 footer div#div-btn-logos a:hover {
     transform: translateY(-5px);
-    transition: transform .5s;
 }
